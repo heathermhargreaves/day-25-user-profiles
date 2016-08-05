@@ -29,11 +29,11 @@ module.exports ={
       var friend = currUser.friends[i];
       results.push(profiles.filter(function(profile) {
           return profile.name === friend;
-      })[0]);
+      }));
     }
     res.json({
       currentUser: currUser,
-      friends: results
-    })
+      friends: rEl
+    });
   }
-}
+};

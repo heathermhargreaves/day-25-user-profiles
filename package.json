@@ -19,6 +19,8 @@
   "homepage": "https://github.com/DevMountain/user-profiles#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
+    "config": "^1.21.0",
+    "config.json": "0.0.4",
     "cors": "^2.7.1",
     "express": "^4.14.0",
     "express-session": "^1.14.0"
